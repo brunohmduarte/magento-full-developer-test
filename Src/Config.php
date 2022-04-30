@@ -9,15 +9,15 @@ error_reporting(E_ALL);
 
 date_default_timezone_set('America/Sao_Paulo');
 
-define( "URL_BASE", "http://localhost:4500/bis2bisTest" );
+define( "URL_BASE", "http://localhost/blog" );
 
 define("DATABASE_CONFIG", [
     "driver" => "mysql",
-    "host" => "lamp-php72_db_1",
+    "host" => "",
     "port" => "3306",
-    "dbname" => "blog_bis2bis",
-    "username" => "root",
-    "passwd" => "root",
+    "dbname" => "",
+    "username" => "",
+    "passwd" => "",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
