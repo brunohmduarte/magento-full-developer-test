@@ -1,0 +1,27 @@
+{
+    "name": "brunoduarte/bis2bistest",
+    "description": "Teste para desenvolvedor pleno na Bis2Bis",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Duarte",
+            "email": "bruno.meddua@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/",
+            "BD\\": "vendor/BD/"
+        },
+        "files": [ "Src/Config.php" ]
+    },
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
